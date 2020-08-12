@@ -1,0 +1,3 @@
+include ':view-extensions'
+include ':app'
+rootProject.name = "Sample Util Module"
