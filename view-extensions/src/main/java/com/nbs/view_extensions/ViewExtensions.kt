@@ -17,3 +17,11 @@ fun View.invisble() {
 fun View.onClick(action: () -> Unit) {
     this.setOnClickListener { action.invoke() }
 }
+
+fun View.enable(){
+    this.isEnabled = true
+}
+
+fun View.disable(){
+    this.isEnabled = false
+}
